@@ -1,0 +1,15 @@
+@charset "utf-8";
+.left-box {
+ 	 float: left;
+ 	 width: 35%;
+	}
+	
+.right-box {
+  	float: right;
+  	width: 65%;
+	}
+	
+
+p { line-height:2.5em }
+
+.layer{ position:absolute; top:50%; left:50%; width:800px; height:300px; margin:-50px 0 0 -50px; }
