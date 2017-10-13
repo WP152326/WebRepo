@@ -20,7 +20,7 @@ $(document).ready(function (){
   							var myModal = $('#myModal');
   	  						myModal.modal();
   	  						myModal.find('.modal-body').text('로그인에 실패 했습니다.');
-  	  					
+  	  						$('#pwd').val('');
   						}
   						else{
   							location.reload();
